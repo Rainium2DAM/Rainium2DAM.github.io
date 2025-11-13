@@ -23,8 +23,8 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rainium2dam', // Usually your GitHub org/user name.
-  projectName: 'rainium2dam.github.io', // Usually your repo name.
-
+  projectName: 'Rainium2DAM.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
