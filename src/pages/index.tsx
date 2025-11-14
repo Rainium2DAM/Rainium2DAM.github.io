@@ -11,12 +11,17 @@ import styles from './index.module.css';
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+    <>
+      <meta name="algolia-site-verification" content="2977250D6730DBB7" />
+
+      <Layout
+        title={`${siteConfig.title}`}
+        description="Trainium | Gestiona - Controla - Entrena"
+      >
+        <main>
+          <HomepageFeatures />
+        </main>
+      </Layout>
+    </>
   );
 }

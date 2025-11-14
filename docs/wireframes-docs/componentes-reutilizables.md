@@ -12,7 +12,7 @@ La aplicación utiliza un conjunto de componentes modulares y patrones de diseñ
 | Patrón | Descripción | Ubicaciones Clave |
 | :--- | :--- | :--- |
 | **Barra de Navegación Inferior** | Fija y persistente en la parte inferior de la pantalla para navegación de alto nivel. | Global (Inicio, Reservar, Premium, Perfil). |
-| **Encabezado (Header) con Acciones** | Título de la pantalla centrado o alineado a la izquierda, acompañado de iconos de acción (ej. Notificaciones 🔔, Headset 🎧, Editar peso 📝).
+| **Encabezado (Header) con Acciones** | Título de la pantalla centrado o alineado a la izquierda, acompañado de iconos de acción (ej. Notificaciones 🔔, Soporte técnico 🎧, Editar peso 📝).
 | **Botón de Retroceso (`<`)** | Icono consistente para volver a la pantalla anterior, típicamente en la esquina superior izquierda. |
 
 ## 2. Componentes de Interacción y Datos

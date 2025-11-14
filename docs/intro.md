@@ -11,10 +11,10 @@ Somos un equipo de **4 estudiantes de 2º curso del Grado Superior en Desarrollo
 
 ### Integrantes del Equipo
 
-- Daniel Adrian Altenir Sánchez - Rol principal
-- José Manuel Altenir Sánchez - Rol principal  
-- Othmane Fathi - Rol principal
-- Jesús Mora Peñarrubia - Rol principal
+- Daniel Adrian Altenir Sánchez
+- José Manuel Altenir Sánchez
+- Othmane Fathi
+- Jesús Mora Peñarrubia
 
 ## El Proyecto
 

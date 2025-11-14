@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Rainium - Tu app de gimasio todo en uno",
+  title: "Trainium - Tu app de gimasio todo en uno",
   tagline: "Gestiona - Controla - Entrena",
   favicon: "img/favicon.ico",
 
@@ -15,25 +15,31 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://rainium2dam.github.io",
+  url: "https://trainium2dam.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "rainium2dam", // Usually your GitHub org/user name.
-  projectName: "rainium2dam.github.io", // Usually your repo name.
+  organizationName: "trainium2dam", // Usually your GitHub org/user name.
+  projectName: "trainium2dam.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+
   i18n: {
     defaultLocale: "es",
     locales: ["es"],
   },
+
+  plugins: [
+    "docusaurus-plugin-zooming",
+    // ...other plugins
+  ],
 
   presets: [
     [
@@ -75,25 +81,36 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "Rainium - Docs",
+      title: "Trainium - Docs",
       logo: {
-        alt: 'Logo',
+        alt: "Logo",
         // Logo para modo claro
-        src: 'img/logo_default.png',
+        src: "img/logo_default.png",
         // Logo para modo oscuro
-        srcDark: 'img/logo_darkmode.png',
+        srcDark: "img/logo_darkmode.png",
       },
       items: [],
     },
     algolia: {
       appId: "ENGTLX40IS",
       apiKey: "e5300ee17a2e9a437afc8930bb67be75",
-      indexName: "Documentacion de Rainium",
+      indexName: "Trainium Docs",
 
       // Opcionales
       contextualSearch: true,
       searchParameters: {},
       insights: false,
+    },
+    zooming: {
+      selector: ".markdown img",
+      delay: 500,
+      background: {
+        light: "rgba(101,108,133,0.8)",
+        dark: "rgba(9,10,17,0.8)",
+      },
+      options: {
+        // See the docs of zooming for all available options: https://github.com/francoischalifour/medium-zoom#usage
+      },
     },
     footer: {
       style: "dark",
@@ -107,7 +124,7 @@ const config: Config = {
             },
             {
               label: "Documentación de Wireframes",
-              to: "/docs/tutorial-basics/first",
+              to: "/docs/wireframes-docs/pantallas-navegacion",
             },
             {
               label: "Instalación y puesta en marcha",
@@ -120,7 +137,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyleft 🄯 ${new Date().getFullYear()} Rainium, no es una marca registrada y es de libre uso.`,
+      copyright: `Copyleft 🄯 ${new Date().getFullYear()} Trainium, no es una marca registrada y es de libre uso.`,
     },
     prism: {
       theme: prismThemes.github,

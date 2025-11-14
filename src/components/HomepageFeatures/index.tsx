@@ -119,7 +119,7 @@ function HeroSection() {
           <div className="col col--8 col--offset-2">
             <div className={styles.heroContent}>
               <Heading as="h1" className={styles.heroTitle}>
-                <span className={styles.rainiumText}>Rainium</span>
+                <span className={styles.rainiumText}>Trainium</span>
               </Heading>
               
               <div className={styles.animatedTextContainer}>
@@ -171,7 +171,7 @@ function CallToAction() {
             <div className={styles.ctaContent}>
               <Heading as="h2">¿Listo para transformar tu gimnasio?</Heading>
               <p>
-                Comienza hoy mismo con Rainium y lleva la gestión 
+                Comienza hoy mismo con Trainium y lleva la gestión 
                 de tu centro deportivo al siguiente nivel.
               </p>
               <div className={styles.ctaButtons}>
@@ -209,7 +209,7 @@ export default function HomepageFeatures(): ReactNode {
               <div className={styles.sectionHeader}>
                 <Heading as="h2">Características Principales</Heading>
                 <p>
-                  Descubre cómo Rainium puede optimizar cada aspecto 
+                  Descubre cómo Trainium puede optimizar cada aspecto 
                   de la gestión de tu gimnasio
                 </p>
               </div>
